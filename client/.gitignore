@@ -1,0 +1,7 @@
+# Node Modules
+node_modules
+# Github Cache
+.DS_Store
+# Env
+.env
+/build
