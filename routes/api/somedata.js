@@ -1,16 +1,16 @@
-const router = require("express").Router();
-const someDataController = require("../../controllers/someDataController");
+const router = require('express').Router()
+const someDataController = require('../../controllers/someDataController')
 
 // Matches with "/api/somedata"
-router.route("/")
+router.route('/')
   .get(someDataController.findAll)
-  .post(someDataController.create);
+  .post(someDataController.create)
 
 // Matches with "/api/somedata/:id"
 router
-  .route("/:id")
+  .route('/:id')
   .get(someDataController.findById)
   .put(someDataController.update)
-  .delete(someDataController.remove);
+  .delete(someDataController.remove)
 
-module.exports = router;
+module.exports = router

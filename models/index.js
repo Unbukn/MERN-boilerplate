@@ -1,3 +1,3 @@
 module.exports = {
-  SomeData: require("./somedata")
-};
+  SomeData: require('./somedata')
+}
